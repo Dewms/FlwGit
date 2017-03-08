@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView14"
+        android:src="@drawable/fabric_bg"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView7" >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_micro_details"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/img_microdermabrasion"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_margin="8dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontTitle"
+                android:text="Title"
+                android:id="@+id/txt_micro_details_title"
+                android:layout_margin="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:paddingLeft="8dp"
+                android:layout_below="@+id/img_micro_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontTitle"
+                android:text="Price"
+                android:id="@+id/txt_micro_details_price"
+                android:layout_margin="8dp"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:paddingLeft="8dp"
+                android:layout_below="@+id/txt_micro_details_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:text="Details"
+                android:id="@+id/txt_micro_details_content"
+                android:layout_margin="8dp"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:paddingLeft="8dp"
+                android:layout_below="@+id/txt_micro_details_price" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:text="Other Services:"
+                android:id="@+id/txt_other"
+                android:layout_margin="8dp"
+                android:textSize="@dimen/abc_text_size_title_material"
+                android:paddingLeft="8dp"
+                android:layout_below="@+id/linear_one"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentBottom="false" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txt_micro_details_content"
+                android:id="@+id/linear_one">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.FontPath"
+                    android:text="@string/lorem"
+                    android:id="@+id/textView16"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:paddingLeft="8dp"
+                    android:layout_weight="3"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linear_two"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/txt_other"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imgbtn_micro_details_facials"
+                        android:src="@drawable/img_facials_services"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imageButton6"
+                        android:src="@drawable/img_microdermabrasion"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imageButton9"
+                        android:src="@drawable/img_body_services"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imageButton10"
+                        android:src="@drawable/img_peels_services"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imageButton11"
+                        android:src="@drawable/img_hair_removal"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/abc_action_bar_default_height_material"
+                        android:id="@+id/imageButton12"
+                        android:src="@drawable/img_medical_services"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="1"
+                        android:layout_margin="4dp"
+                        android:background="#ffffff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

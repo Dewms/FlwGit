@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview_home"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:paddingTop="40dp"
+        android:nestedScrollingEnabled="false"
+        android:background="#ffffff">
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/bgkits">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontTitle"
+            android:text="Flawless Kits"
+            android:id="@+id/textView18"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/textView19"
+            android:background="#ffffff"
+            android:padding="8dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:text="@string/kits_subtitle"
+                android:id="@+id/textView19"
+                android:textSize="@dimen/abc_text_size_small_material"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center|top"
+                android:background="#ffffff"
+                android:padding="24dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative_two_home"
+            android:focusable="false"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_bleachingkit"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_body_bleaching"
+                    android:scaleType="fitCenter"
+                    android:baselineAlignBottom="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_toRightOf="@+id/imgbtn_agedefykit"
+                    android:layout_below="@+id/txt_whiteningkit2"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp"
+                    android:layout_gravity="right" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_rgkit"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_realgentleman"
+                    android:scaleType="fitCenter"
+                    android:baselineAlignBottom="false"
+                    android:layout_toRightOf="@+id/imgbtn_bleachingkit"
+                    android:layout_below="@+id/txt_oilkit"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_acnekit"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_acnecontrol"
+                    android:scaleType="fitCenter"
+                    android:baselineAlignBottom="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_weight="1"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_whiteningkit"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_whiteningkit"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/imgbtn_acnekit"
+                    android:layout_weight="1"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_oilkit"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_oil_control"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@+id/imgbtn_whiteningkit"
+                    android:layout_weight="1"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_agedefykit"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_kit_age_defy"
+                    android:scaleType="fitCenter"
+                    android:baselineAlignBottom="false"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txt_acnekit"
+                    android:layout_toRightOf="@+id/imgbtn_acnekit"
+                    android:background="@drawable/fabric_bg"
+                    android:elevation="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

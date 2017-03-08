@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment2"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_products"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_products_individual"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:background="#ffffff"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_product_title"
+                android:visibility="visible"
+                android:text="PRODUCTS"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_text_size_headline_material"
+                android:textColor="@color/colorPrimary"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.FontTitle"
+                android:text="-"
+                android:id="@+id/txt_products_price"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_product_details"
+                android:visibility="visible"
+                android:text="@string/product_details"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:layout_gravity="left"
+                android:textAlignment="textStart"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

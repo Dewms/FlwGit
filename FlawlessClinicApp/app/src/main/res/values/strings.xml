@@ -1,0 +1,1226 @@
+<resources>
+    <string name="app_name">Flawless</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="nav_drawer_opened">drawer opened</string>
+    <string name="nav_drawer_closed">drawer closed</string>
+
+    <string name="nav_products">Products</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_news">News</string>
+    <string name="nav_lifestyle">Lifestyle</string>
+
+    <string name="nav_acne_control">Acne Control</string>
+    <string name="nav_whitening">Whitening</string>
+    <string name="nav_oil_control">Oil Control</string>
+    <string name="nav_age_defy">Age Defy</string>
+    <string name="nav_body">Body Services</string>
+
+    <string name="toolbar_home">Home</string>
+    <string name="toolbar_products">Products</string>
+    <string name="toolbar_services">Services</string>
+    <string name="toolbar_news">News</string>
+    <string name="toolbar_lifestyle">Lifestyle</string>
+    <string name="toolbar_clinics">Clinics</string>
+    <string name="toolbar_about">About Us</string>
+    <string name="toolbar_corp">Corporate Information</string>
+    <string name="toolbar_brand">Brand Story</string>
+
+    <string name="header_advanced_facials">Facials</string>
+    <string name="header_regular_facials">Regular Facials</string>
+    <string name="header_microdermabrasion">Microdermabrasion</string>
+    <string name="header_body_services">Body Services</string>
+    <string name="header_medical_services">Medical Services</string>
+    <string name="header_hair_removal">Hair Removal</string>
+    <string name="header_peels">Peels</string>
+
+    <string name="footer">©2016 Forever Flawless Face and Body Clinic Inc.</string>
+
+    <string-array name="array_list_products_title">
+        <item>Skin Lite Cream</item>
+        <item>Skin White Therapy</item>
+        <item>Skin Whitening Soap</item>
+        <item>Skin Lightening Lotion with Sunblock</item>
+        <item>White Plus Cream</item>
+        <item>Whitening Toner</item>
+        <item>Age Defy Cream</item>
+        <item>Oatmeal Soap</item>
+        <item>Tea Tree Soap</item>
+        <item>Pore Refiner</item>
+        <item>Skin Renew Cream</item>
+        <item>RG Soap</item>
+        <item>RG Cream</item>
+        <item>RG Toner</item>
+        <item>SAS Soap</item>
+        <item>Skin Protect Gel</item>
+        <item>Collagen Soap</item>
+        <item>Skin Protect Cream</item>
+        <item>Age Defy Toner</item>
+        <item>AHA Soap </item>
+        <item>Anti-Perspirant Deo</item>
+        <item>Flawless Skin Protect Mist</item>
+        <item>Whitening Super Serum</item>
+        <item>Age Defy Super Serum</item>
+        <item>Nano Whiteness Glutathione Plus</item>
+        <item>Skinlift Collagen</item>
+        <item>Shape and Sculpt L-Carnitine</item>
+    </string-array>
+
+    <string-array name="array_list_products_price">
+        <item>P 340</item><!--Skin Lite Cream-->
+        <item>P 340</item><!--Skin White Therap-->
+        <item>P 140</item><!--Skin Whitening Soap-->
+        <item>P 480</item><!--Skin Lightening Lotion with Sunblock-->
+        <item>P 730</item><!--White Plus Cream-->
+        <item>P 290</item><!--Whitening Toner-->
+        <item>P 330</item><!--Age Defy Cream-->
+        <item>P 140</item><!--Oatmeal Soap-->
+        <item>P 140</item><!--Tea Tree Soap-->
+        <item>P 290</item><!--Pore Refiner-->
+        <item>P 330</item><!--Skin Renew Cream-->
+        <item>P 140</item><!--RG Soap-->
+        <item>P 280</item><!--RG Cream-->
+        <item>P 280</item><!--RG Toner-->
+        <item>P 140</item><!--SAS Soap-->
+        <item>P 290</item><!--Skin Protect Gel-->
+        <item>P 140</item><!--Collagen Soap-->
+        <item>P 290</item><!--Skin Protect Cream-->
+        <item>P 290</item><!--Age Defy Toner-->
+        <item>P 140</item><!--AHA Soap-->
+        <item>P 180</item><!--Anti-Perspirant Deo-->
+        <item>P 450</item><!--Flawless Skin Protect Mist-->
+        <item>P 1500</item><!--Whitening Super Serum-->
+        <item>P 1500</item><!--Age Defy Super Serum-->
+        <item>P 3500</item><!--Nano Whiteness Glutathione Plus-->
+        <item>P 2250</item><!--Skinlift Collagen-->
+        <item>P 2250</item><!--Shape and Sculpt L-Carnitine-->
+    </string-array>
+
+    <string-array name="array_list_products_details">
+        <item><!--Skin Lite Cream-->
+            Prevents sun damage, lightens skin and diminishes discoloration while promoting the
+            growth of healthy tissues.
+        </item>
+
+        <item><!--Skin White Therapy-->
+            A whitening moisturizer that targets pigmentations from acne and other blemishes.
+            It exfoliates skin, resulting to a brighter and more even skin tone.
+        </item>
+        <item><!--Skin Whitening Soap-->
+            A moisturizing soap that lightens spots and discolorations and provides antimicrobial
+            and moisture care.
+        </item>
+        <item><!--Skin Lightening Lotion with Sunblock-->
+            Lightens skin by reducing the formation of melanin. Contains sunscreen for added
+            protection from the sun.
+        </item>
+        <item><!--White Plus Cream-->
+            Abundant with natural plant extracts. It works to ensure an evenly-lighter and
+            well-moisturized skin.
+        </item>
+        <item><!--Whitening Toner-->
+            Cleanses and lightens skin while restoring the skin’s natural pH level; working hard to
+            remove dark marks and other blemishes.
+        </item>
+        <item><!--Age Defy Cream-->
+            Goes deep down into the skin to promote balance and moisturization, preventing the
+            signs of aging.
+        </item>
+        <item><!--Oatmeal soap-->
+            A gentle exfoliating soap meant to slough off dead skin cells to reveal a brighter,
+            softer and more radiant complexion.
+        </item>
+        <item><!--Tea Tree soap-->
+            Kills bacteria and cleanses skin of impurities.
+        </item>
+        <item><!--Pore Refiner-->
+            This toner was specially formulated to minimize pores as well as tone the skin.
+        </item>
+        <item><!--Skin Renew Cream-->
+            A double-functioning cream that acts to exfoliate and unclog pores while providing
+            balanced moisturization and clarity.
+        </item>
+        <item><!--RG soap-->
+            Specially formulated for men, this soap removes dead skin cells to reveal a more radiant
+            and youthful complexion.
+        </item>
+        <item><!--RG Cream-->
+            A fast-absorbing moisturizer that works to provide balance moisturization and protect
+            skin from harmful UV rays.
+        </item>
+        <item><!--RG Toner-->
+            Especially formulated to provide men with deep-cleansing action as well as restore the
+            skin’s natural pH balance and inhibit acne formation.
+        </item>
+        <item><!--SAS soap-->
+            A specially designed soap made to combat acne by targeting acne-causing bacteria and
+            decreasing oiliness of acne-prone skin.
+        </item>
+        <item><!--Skin Protect Gel-->
+            A specially-formulated sun screen that protects the skin without leaving a greasy feel.
+        </item>
+        <item><!--Collagen soap-->
+            A non-drying soap that effectively cleanses the skin without stripping off its natural
+            protection; helps firm up the skin.
+        </item>
+        <item><!--Skin Protect Cream-->
+            Protects the skin against photodamage; delays wrinkling, sagging and uneven
+            discoloration of skin.
+        </item>
+        <item><!--Age Defy toner-->
+            A must-have for those aiming for a younger-looking skin, the Age Defy Toner lightly
+            exfoliates and minimizes the pores, improves skin clarity and smoothens the skin.
+        </item>
+        <item><!--AHA soap-->
+            Helps improve the softness and texture of the skin.
+        </item>
+        <item><!--Anti-Perspirant deo-->
+            Lightens dark underarms and helps protect against body odor all day.
+        </item>
+        <item><!--Flawless Skin Protect Mist-->
+            Formulated with a high SPF of 70, the fuss-free and water-resistant Flawless Skin
+            Protect Mist effectively shields skin from harmful UVA and UVB rays.
+        </item>
+        <item><!--Whitening Super Serum-->
+            Lightens skin and pigmentations for a fairer and evenly toned complexion.
+        </item>
+        <item><!--Age Defy Super Serum-->
+            Advanced youth-boosting serum that helps restore your skin’s youthful radiance.
+        </item>
+        <item><!--Nano Whiteness Glutathione Plus-->
+            Detoxifies and helps lighten and rejuvenate skin for a radiant glow.
+        </item>
+        <item><!--Skinlift Collagen-->
+            Natural anit-aging tablets that supply collagen production for skin regeneration and
+            firmness.
+        </item>
+        <item><!--Shape and Sculpt L-Carnitine-->
+            Maximizes production of energy to aid weight loss and fat burning.
+        </item>
+    </string-array>
+
+    <string-array name="array_list_advanced_facials">
+        <item>All Natural Ultimate Whitening Facial</item>
+        <item>Cell Booster Infusion Mask</item>
+        <item>Acne Control Advanced Facial</item>
+        <item>Oil Control Advanced Facial</item>
+        <item>Age Defy Advanced Facial</item>
+        <item>Flawless White Advanced Facial</item>
+        <item>Real Gentleman Advanced Facial</item>
+
+        <item>Classic Facial</item>
+        <item>Acne Control Facial</item>
+        <item>Oil Control Facial</item>
+        <item>Age Defy Facial</item>
+        <item>Flawless White Facial</item>
+        <item>Real Gentleman Facial</item>
+    </string-array>
+
+    <string-array name="array_details_advanced_facials">
+        <item><!--All Natural Ultimate Whitening Facial-->
+            Immediately lightens, smoothens and rejuvenates the skin with the use of combined natural
+        ingredients from the Dead Sea, including Dunaliella Seaweeds,and Gigawhite, a natural
+        skin-lightening agent.
+        </item>
+        <item><!--Cell Booster Infusion Mask-->
+            Deeply nourishes and cools the skin using a hydrogel mask infused with potent cultured
+        Apple growth factors.
+        </item>
+        <item><!--Acne Control Advanced Facial-->
+            Targets acne-causing bacteria while delivering healing and soothing benefits to the skin
+        using a cooling green oxygenating mask.
+        </item>
+        <item><!--Oil Control Advanced Facial-->
+            Visibly reduces and unclogs pores, and helps control oil production using a powerful cooling
+        mask while promoting its natural healing process.</item>
+        <item><!--Age Defy Advanced Facial-->
+            Effectively restores skin’s radiance and elasticity with the use of Seaweed and Vitamin C
+        extracts.
+        </item>
+        <item><!--Flawless White Advanced Facial-->
+            Beautifully lightens and moisturizes face using White Nest extract and moisturizing milk
+        lotion, leaving the face evenly-toned, supple and fair.
+        </item>
+        <item><!--Real Gentleman Advanced Facial-->
+            Efficiently restores skin’s natural balance, minimizes pores, reduces oil production and
+        tones up face using a mask made of active vegetal charcoal.
+        </item>
+
+        <item><!--Classic Facial-->
+            Ideal for all skin types. Clears and refines skin by relaxing facial nerves and removing
+        facial impurities.
+        </item>
+        <item><!--Acne Control Facial-->
+            Diminishes acne-causing bacteria using an antiseptic mask that also contains healing
+        properties.
+        </item>
+        <item><!--Oil Control Facial-->
+            Unclogs pores and helps reduce oil production using a seaweed mask.
+        </item>
+        <item><!--Age Defy Facial-->
+            Lifts skin and boosts its natural moisture using a collagen mask.
+        </item>
+        <item><!--Flawless White Facial-->
+            Brings out a radiant face using a skin-lightening mask that contains a plant-based whitening
+        agent called Melfade.
+        </item>
+        <item><!--Real Gentleman Facial-->
+            Specially formulated for men, this restores skin’s natural balance and firms it with the use
+        of an algae mask.
+        </item>
+    </string-array>
+
+    <string-array name="array_price_list_advanced_facials">
+        <item>P 1,600</item><!--All Natural Ultimate Whitening Facial-->
+        <item>P 1,400</item><!--Cell Booster Infusion Mask-->
+        <item>P 980</item><!--Acne Control Advanced Facial-->
+        <item>P 980</item><!--Oil Control Advanced Facial-->
+        <item>P 980</item><!--Age Defy Advanced Facial-->
+        <item>P 980</item><!--Flawless White Advanced Facial-->
+        <item>P 980</item><!--Real Gentleman Advanced Facial-->
+        <item>P 399</item><!--Classic Facial-->
+        <item>P 625</item><!--Acne Control Facial-->
+        <item>P 625</item><!--Oil Control Facial-->
+        <item>P 625</item><!--Age Defy Facial-->
+        <item>P 625</item><!--Flawless WhiteFacial-->
+        <item>P 625</item><!--Real Gentleman Facial-->
+    </string-array>
+
+    <string-array name="array_list_microdermabrasion">
+        <item>Platinum Peel with Classic Facial</item>
+        <item>Platinum Peel with Oil Control Regular Mask</item>
+        <item>Platinum Peel with Oil Control Advanced</item>
+        <item>Platinum Peel with Acne Control Regular Mask</item>
+        <item>Platinum Peel with Acne Control Advanced Mask</item>
+        <item>Platinum Peel with Flawless White Regular Mask</item>
+        <item>Platinum Peel with Flawless White Advanced Mask</item>
+        <item>Platinum Peel with Age Defy Regular Mask</item>
+        <item>Platinum Peel with Age Defy Advanced Mask</item>
+        <item>Platinum Peel with Real Gentleman Regular Mask</item>
+        <item>Platinum Peel with Real Gentleman Advanced Mask</item>
+        <item>Nano Powerpeel</item>
+        <item>Power Facial</item>
+    </string-array>
+
+    <string-array name="array_details_microdermabrasion">
+        <item><!--Platinum Peel with Classic Facial-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+        </item>
+        <item><!--Platinum Peel with Oil Control Regular Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+        </item>
+        <item><!--Platinum Peel with Oil Control Advanced-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+        </item>
+        <item><!--Platinum Peel with Acne Control Regular Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+	    </item>
+        <item><!--Platinum Peel with Acne Control Advanced Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+        </item>
+        <item><!--Platinum Peel with Flawless White Regular Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+        </item>
+        <item><!--Platinum Peel with Flawless White Advanced Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+	    </item>
+	    <item><!--Platinum Peel with Age Defy Regular Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+	    </item>
+	    <item><!--Platinum Peel with Age Defy Advanced Mask-->Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+    	</item>
+	    <item><!--Platinum Peel with Real Gentleman Regular Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+	    </item>
+	    <item><!--Platinum Peel with Real Gentleman Advanced Mask-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture specific to different skin types and required depth of resurfacing. This microdermabrasion service is effective in oil control, skin whitening, and anti-aging.
+	    </item>
+	    <item><!--Nano Powerpeel-->
+            Nano Powerpeel uses a special hand-held device covered in corundum crystals that propel a high-speed flow of aluminum oxide onto the skin. Simultaneously, the machine’s vacuum sucks away dirt, dead skin cells and other skin blemishes, leaving the skin radiantly glowing.
+	    </item>
+	    <item><!--Power Facial-->
+            An innovative facial treatment that effectively rejuvenates the skin and dramatically improves damages caused by the sun. It combines abrasion and suction techniques while incorporating nutrient-rich and hydrating serums to exfoliate the outer layer of the skin, reduce fine lines, wrinkles and scarring, and help to correct appearance of dark spots and acne marks.
+	    </item>
+    </string-array>
+
+    <string-array name="array_price_list_microdermabrasion">
+        <item>P 850</item><!--Platinum Peel with Classic Facial-->
+        <item>P 990</item><!--Platinum Peel with Oil Control Regular Mask-->
+        <item>P 1350</item><!--Platinum Peel with Oil Control Advanced-->
+        <item>P 990</item><!--Platinum Peel with Acne Control Regular Mask-->
+        <item>P 1350</item><!--Platinum Peel with Acne Control Advanced Mask-->
+        <item>P 1000</item><!--Platinum Peel with Flawless White Regular Mask-->
+        <item>P 1350</item><!--Platinum Peel with Flawless White Advanced Mask-->
+        <item>P 990</item><!--Platinum Peel with Age Defy Regular Mask-->
+        <item>P 1350</item><!--Platinum Peel with Age Defy Advanced Mask-->
+        <item>P 990</item><!--Platinum Peel with Real Gentleman Regular Mask-->
+        <item>P 1350</item><!--Platinum Peel with Real Gentleman Advanced Mask-->
+        <item>P 2000</item><!--Nano Powerpeel-->
+        <item>P 4000</item><!--Power Facial-->
+    </string-array>
+
+    <string-array name="array_list_hair_removal">
+        <item>Laser Hair Removal</item>
+        <item>Smart PL Hair Removal</item>
+    </string-array>
+
+    <string-array name="array_details_hair_removal">
+        <item><!--Laser Hair Removal-->
+            This treatment uses the gold standard Diode System which emits laser light that penetrates
+            and destroys hair follicles while protecting the skin with a contact-cooling hand piece called
+            ChillTip.
+        </item>
+        <item><!--Smart PL Hair Removal-->
+            This treatment uses Fractionated Pulsed Light to remove hair. It works by sending various light
+        wavelengths to target hair follicles, while keeping the skin smooth and protected.
+        </item>
+    </string-array>
+
+    <string-array name="array_price_list_hair_removal">
+        <item>P </item>
+        <item>P </item>
+    </string-array>
+
+    <string-array name="array_list_peels">
+        <item>Skin Peeling</item>
+        <item>Mesoestetic Peels</item>
+        <item>Easy Peel</item>
+        <item>Flawless Signature Body Peel</item>
+    </string-array>
+
+    <string-array name="array_details_peels">
+        <item><!--Skin Peeling-->
+            An effective chemical peel treatment uses medical-grade chemical solutions to improve skin color,
+        texture and condition. This helps regenerate skin and treats hyper pigmentation or discoloration,
+        wrinkles, ace and scars.
+        </item>
+        <item><!--Mesoestetic Peels-->
+            Select from three types of solution to address specific skin concerns. Mandelic Peel for skin
+        whitening. Glycolic Peel for anti-aging and Salicylic Peel for controlling acne-prone skin,
+        that need rejunevation, Mesostetic peels are of premium quality for excellent results.
+        </item>
+        <item><!--Easy Peel-->
+            Using a highlt concentrated peeling solution, Easy Peel effecetively heals and eliminates
+            skin discoloration, fine lines, acne, oiliness, and the appearance of large pores.
+        </item>
+        <item><!--Flawless Signature Body Peel-->
+            A Flawless Exclusive, this intensive whole body micro-peeling treatment uses multiple types of
+        fruit acids to deliver a smoother, fairer and more radiant skin.
+        </item>
+    </string-array>
+
+    <string-array name="array_price_list_peels">
+        <item>P</item>
+        <item>P</item>
+        <item>P</item>
+        <item>P</item>
+    </string-array>
+
+    <string-array name="array_list_medical">
+        <item>Fractional Needling Therapy: Retinol for Acne</item>
+        <item>Fractional Needling Therapy: Clearing for Oily Skin</item>
+        <item>Fractional Needling Therapy: Age Defy</item>
+        <item>Skinfusion Expert Clearing Face</item>
+        <item>Skinfusion Expert Lifting Face</item>
+        <item>Skinfusion Expert Pigmentation Body</item>
+        <item>Skinfusion Expert Pigmentation Face</item>
+    </string-array>
+
+    <string-array name="array_details_medical">
+        <item><!--Fractional Needling Therapy: Retinol for Acne-->
+            This innovative micro needling procedure helps provide a smoother, clearer and suppler skin. Retinol uses Vitamin A Serum to fight acne and reduce oiliness. It also promotes collagen production and cellular renewal.
+
+        </item>
+        <item><!--Fractional Needling Therapy: Clearing for Oily Skin-->
+            This innovative micro needling procedure helps provide a smoother, clearer and suppler skin. Clearing helps control oil production and gently removes impurities. It also moisturizes the skin with the help of natural active ingredients, like yeast and Vitamin B.
+        </item>
+
+        <item><!--Fractional Needling Therapy: Age Defy-->
+            This innovative micro needling procedure helps provide a smoother, clearer and suppler skin. Age Defy FNT promotes collagen production and delivers powerful age-defying serums, such as Human Growth Factors, Lifitng, Super Defense and Moisture Defense to the deepest layers of the skin.
+        </item>
+        <item><!--Skinfusion Expert Clearing Face-->
+            An effective and non-invasive way of delivering medications that fight acne-causing bacteria to the deeper layers of the skin. It also helps reduce the appearance of large pores.</item>
+        <item><!--Skinfusion Expert Lifting Face-->
+            Effectively rejuvenates the skin and gives it a finer texture by infusing anti-aging and nourishing solutions to the deeper layers of the epidermis.
+        </item>
+        <item><!--Skinfusion Expert Pigmentation Body-->
+            Uses powerful serums to help lighten the skin, correct hyperpigmentations and give a finer skin texture.
+
+        </item>
+        <item><!--Skinfusion Expert Pigmentation Face-->
+            Uses powerful serums to help lighten the skin, correct hyperpigmentations and give a finer skin texture..</item>
+    </string-array>
+
+    <string-array name="array_price_list_medical">
+        <item>P4,500</item><!--Fractional Needling Therapy: Retinol for Acne-->
+        <item>P4,500</item><!--Fractional Needling Therapy: Clearing for Oily Skin-->
+        <item>P4,500</item><!--Fractional Needling Therapy: Age Defy-->
+        <item>P2,000</item><!--Skinfusion Expert Clearing Face-->
+        <item>P2,000</item><!--Skinfusion Expert Lifting Face-->
+        <item>P2,000</item><!--Skinfusion Expert Pigmentation Body-->
+        <item>P2,000</item><!--Skinfusion Expert Pigmentation Face-->
+    </string-array>
+
+
+
+    <string name="product_details">
+    <item>
+        Flawless Face and Body Clinic offers a collection of products especially
+        formulated to match each skin type - acne-prone, oily skin, sensitive,
+        mature skin, or combination - for women and men alike.
+      </item>
+    </string>
+
+    <string-array name="array_list_lifestyle">
+        <item>YOUR BEST SKIN EVER WITH FLAWLESS BEAUTY GOALS!</item>
+        <item>GO GET THAT GLOW!</item>
+        <item>FLAWLESS FITNESS REGIMEN</item>
+        <item>WORK THAT FACELIFT</item>
+        <item>PUCKER UP TO YOUNGER LIPS</item>
+        <item>DO’S AND DON’TS: LASER HAIR REMOVAL</item>
+    </string-array>
+
+
+    <string-array name="array_content_lifestyle">
+        <item>
+            Ever wished that you look more youthful and your skin glows radiantly? Or how about keeping
+        your skin totally blemish-free? Get ready to achieve your most beautiful skin ever with Flawless,
+        the country’s preferred clinic for face, body and medical services.
+        \n\n
+        Acne Control, Whitening, and Age Defy bundles are composed of Flawless’ most popular services
+        for face and body, such as Advanced and Regular Facials, Platinum Peel, Nano Powerpeel,
+        Back Cleaning, Body Scrub, and Shape and Sculpt. Plus, FREE take home products are included
+        in each bundle to give clients a complete beauty package.
+        \n\n
+        So what are you waiting for? Book your beauty bundle now and be the most flawless version
+        of yourself. Hurry, the nationwide Flawless Beauty Goals promo is valid until August 31 only!
+         \n\n
+        </item>
+        <item>
+            Getting that beautiful glowing skin you’ve always wanted has something to do with health and
+        nutrition. As they say it—you are what you eat! So aside from sticking to your daily skincare
+        regimen and regular beauty treatments at Flawless, give your body its required nutrients.
+        \n\n
+        Find foods that are rich in Vitamins A, C and E. Eat more dark green vegetables and fruits
+        that are natural antioxidants, such as berries and apples. And don’t forget to drink lots
+        of water.
+        \n\n
+        Adapt this healthy diet and you’ll definitely see and feel your skin glowing!
+        \n\n\n\n\n\n\n\n\n
+        </item>
+
+        <item>
+           Are you tired of exercising and still not getting your desired body shape? At Flawless,
+        we believe that it takes a comprehensive approach to achieve one’s beauty goal. To help boost
+        your fitness regimen, we recommend Shape and Sculpt and its Nutraceuticals counterpart, Shape
+        and Sculpt L-Carnitine Dietary Supplement. Pair these two with a balanced diet and regular
+        exercise to get that body you’ve always wanted.
+        \n\n\n\n\n\n\n\n\n\n\n
+        </item>
+        <item>
+            We all know the wonders of workout for tightening the body, but what we should also consider
+        (and make full use of) is our facial muscles. Exercising the facial muscles will help retain
+        smoothness and firmness of the skin that results to a fresher and younger look. Now, here’s
+        how you can do basic facial exercises:
+        \n\n
+        Forehead – Place your index and ring fingers above your eyes; while raising your eyebrows,
+        pull your fingers down. Repeat 12 times.
+        \n\n
+        Cheeks –Purse lips inwardly as you inhale air into your mouth and then smile slowly and widely
+        to stretch muscles. Repeat 10 times.
+        \n\n
+        Neck – Place your thumb and index finger in the middle of your chin, and then separate both
+        fingers to massage the jaw and slowly move down to the neck. Repeat 12 times.
+        </item>
+        <item>Anti-age your lips naturally, here are 2 easy ways to get those younger, fuller and more kissable
+       lips without surgery.
+        \n\n
+       Exercise.Save sagging lip muscles by pouting your lips and moving them upwards to the nose.
+       Hold for 10 seconds and release slowly; repeat 12 times.
+       \n
+       To plump up lips, make a duck face or simply pout your lips widely and then kiss the back of
+       your hand as if you’re giving your lips a push up. Repeat 12 times.
+        \n\n
+       Anti-oxidize.Antioxidants help repair tissues and promote cellular regeneration, which reduce
+       appearance of wrinkles and fine lines. To get these beautiful benefits of antioxidants, use
+       Lipaddict Anti-Aging and Nourishing Lip Plumper from ISKIN New York.Lipaddict delivers age
+       defying, volumizing, moisturizing, healing and lip-enhancing actions for fuller and
+       younger-looking lips.
+        \n\n
+       For best results, apply a good amount of Lipaddict Lip Plumper on clean and dry lips.
+       Lip addict can also be used in the evening as night treatment.
+        </item>
+        <item>
+            Laser Hair Removal promises instant removal of hair on various parts of the face and body,
+        such as upper lip, underarms, legs and bikini line. This advanced aesthetic treatment may be
+        safe and pain-free but there are still some basic rules in LHR that we should not forget, like
+        \n\n
+        •	Do not use makeup, lotion or deodorant over the area to be treated. This is to ensure
+        effectiveness of the treatment and to avoid complications from chemicals found in such products.
+        \n\n
+        •	Do not pluck, wax or tweeze area for at least 4 weeks prior to the scheduled session.
+        These traditional hair removal techniques cause skin to be extra sensitive to laser treatments.
+        \n\n
+        •	Avoid sun exposure for at least 7 days and wear sunscreen of high SPF level to protect
+        skin from harmful UV rays; we recommend Flawless Skin Protect Mist with SPF 70.
+        \n\n
+        Note: Achieve hair-free perfection! Flawless offers lifetime packages on Laser Hair Removal.
+        </item>
+    </string-array>
+
+    <string-array name="array_list_clinics">
+        <item>CB MALL URDANETA</item>
+        <item>CDO CENTRIO MALL</item>
+        <item>CSI CITY MALL - DAGUPAN</item>
+        <item>Eastwood Cyber And Fashion Mall</item>
+        <item>FARMERS PLAZA MALL</item>
+        <item>FESTIVAL SUPER MALL ALABANG</item>
+        <item>KCC MALL, GENERAL SANTOS CITY</item>
+        <item>HARBOR POINT MALL SUBIC - OLONGAPO</item>
+        <item>SM BACOLOD</item>
+        <item>SM BACOOR</item>
+        <item>SM BALIWAG</item>
+        <item>SM BATANGAS</item>
+        <item>SM BF Homes Parañaque</item>
+        <item>SM BICUTAN</item>
+        <item>SM CALAMBA</item>
+        <item>SM CEBU</item>
+        <item>SM City Cabanatuan</item>
+        <item>SM CITY CLARK</item>
+        <item>SM DASMARINAS</item>
+        <item>SM FAIRVIEW</item>
+        <item>SM ILOILO</item>
+        <item>SM LANANG, DAVAO</item>
+        <item>SM LAS PINAS</item>
+        <item>SM LIPA</item>
+        <item>SM MAKATI</item>
+        <item>SM MALL OF ASIA</item>
+        <item>SM MANILA</item>
+        <item>SM MARILAO</item>
+        <item>SM MEGAMALL</item>
+        <item>SM NORTH EDSA ANNEX</item>
+        <item>SM PAMPANGA</item>
+        <item>SM SAN LAZARO</item>
+        <item>SM SOUTHMALL</item>
+        <item>SM STA. MESA</item>
+        <item>SM STA. ROSA</item>
+        <item>SM TARLAC</item>
+        <item>SMDC Light Residences</item>
+        <item>STA. LUCIA EAST GRAND MALL</item>
+        <item>TRINOMA MALL</item>
+        <item>V-MALL GREENHILLS SHOPPING CENTER</item>
+        <item>WALTERMART SANTA MARIA</item>
+        <item>Zamboanga City</item>
+    </string-array>
+
+    <string-array name="array_details_clinics">
+        <item><!--1. CB MALL URDANETA-->
+            Unit 16-17B 2/F CB Mall, Mac Arthur Highway, Nancayasan Urdaneta City, Pangasinan\n
+            (075) 529-018709299563032
+        </item>
+        <item><!--2. CDO CENTRIO MALL-->
+            3/F Centrio Mall, Capt. Vicente Roa St.-Corrales Avenue cor. C.M. Recto Avenue, Cagayan
+            de Oro City, Misamis Oriental, Philippines\n
+            (088)880-7062/ 09177038111 09062472637
+        </item>
+        <item><!--3. CSI CITY MALL - DAGUPAN-->
+            CSI The City Mall, Dagupan City, Pangasinan\n
+            (075) 55224567 09228552301
+        </item>
+        <item><!--4. Eastwood Cyber And Fashion Mall-->
+            Unit 106, 2nd Level, Eastwood Cybermall, Bagumbayan, Quezon City\n
+            (02) 570-14-45
+        </item>
+        <item><!--5. FARMER'S PLAZA MALL-->
+            3rd Floor, Farmers Plaza Mall General Roxas Avenue Cubao, Quezon City\n
+            (02) 441-5245 / 09175954465
+        </item>
+        <item><!--6. FESTIVAL SUPER MALL ALABANG-->
+            3/F Wellness Lane, Festival Supermall, Filinvest Corporate City, Alabang, Muntinlupa City\n
+            8319557 / 09175954469
+	    </item>
+	    <item><!--7. KCC MALL, GENERAL SANTOS CITY-->
+            J. Catolico Ave., Brgy. Lagao, General Santos City\n
+            (083) 5523809
+    	</item>
+    	<item><!-- 8. HARBOR POINT MALL SUBIC - OLONGAPO-->
+            Level 3, Harbor Point Mall, Rizal Highway, Subic Bay Freeport Zone\n
+            09204060816 / 251-1116
+    	</item>
+    	<item><!--9. SM BACOLOD-->
+            3rd Floor, New North Wing Extension, SM Bacolod, Rizal St. Bacolod City, Negros Occidental\n
+            09178172083/(034) 4312857
+    	</item>
+    	<item><!--10. SM BACOOR-->
+            Lower Ground Floor, SM City Bacoor Gen. Aguinaldo Highway cor. Tirona Highway, Brgy. Ilabay Bacoor City, Cavite\n
+            (046) 417-8661/+63 9175954456
+    	</item>
+    	<item><!--11. SM BALIWAG-->
+            Ground Floor, SM City Baliwag Doña Remedios Trinidad Highway Brgy. Pagala, Baliwag, Bulacan\n
+            (044) 761-0825 / 09175954472
+    	</item>
+    	<item><!--12. SM BATANGAS-->
+            151-152A, Ground Floor near entrance 3, SM City Batangas Pastor Village, Brgy. Pallocan Kanluran Batangas City\n
+        (043) 783-0757 / 09175954514
+    	</item>
+        <item><!--13. SM BF Homes Parañaque-->
+            Unit 278, 2/F, SM City BF Parañaque, BF Homes, Dr. A Santos Avenue, Sucat, Parañaque City.\n
+            (2)	8325688
+        </item>
+        <item><!--14. SM BICUTAN-->
+            G/F SM City Bicutan Bldg. B Doña Soledad Avenue cor West Service Road (beside Bicutan Exit) Barangay Don Bosco, Bicutan, Parañaque City\n
+            5110619 09423917653
+        </item>
+        <item><!--15. SM CALAMBA-->
+            Unit 263-264 2nd Floor, SM City Calamba National Highway, Brgy. Real Calamba City, Laguna\n
+            (049) 530-0085 / 09175954521
+        </item>
+        <item><!--16. SM CEBU-->
+            2nd Floor, North Wing, SM City Cebu North Reclamation Area, Cebu City\n
+            (032) 238-9605 to 06
+        </item>
+        <item><!--17. SM City Cabanatuan-->
+            3rd Floor SM City Cabanatuan, Maharlika Highway, Cabanatuan City, Nueva Ecija\n
+            0915 4413140 / 044 951 0073
+    	</item>
+        <item><!--18. SM CITY CLARK-->
+            2nd Level Wellness Zone SM Clark Pampanga/Balibago Angeles City\n
+            (045) 4362617
+    	</item>
+        <item><!--19.SM DASMARINAS-->
+            2nd Floor, SM City Dasmarinas Governors Drive, Brgy. Pala-Pala Dasmarinas, Cavite\n
+            046 432 3165 / 09175954460
+    	</item>
+        <item><!--20. SM FAIRVIEW-->
+            2nd Floor, Main Bldg, SM City Fairview Quirino Avenue cor Regalado St. Greater Lagro, Quezon City\n
+            (02) 937-7109 /09175954531
+        </item>
+        <item><!--21. SM ILOILO-->
+            Lower Ground Floor, SM City Ilo-ilo Benigno Aquino Jr. Avenue West Diversion Road\n Mandurriao, Iloilo City
+            (033) 329-5297 / 09175954496
+        </item>
+        <item><!--22. SM LANANG, DAVAO-->
+            LG/F SM Lanang Premier, J.P. Laurel Avenue, Lanang, Davao City, Philippines\n
+            (082) 2851980 09154356802
+    	</item>
+        <item><!--23. SM LAS PINAS-->
+            Upper Ground Floor, Unit 208, SM Center Las Piñas, Alabang-Zapote Road, Barangay Pamplona, Las Piñas City\n
+            8464914 09229883063
+    	</item>
+        <item><!--24. SM LIPA-->
+            2nd Floor, SM City Lipa Ayala Highway, Lipa City, Batangas\n
+            (043) 7840866/ 09175954516
+    	</item>
+        <item><!--25. SM MAKATI-->
+            4th Floor, SM Makati Ayala Center cor EDSA Makati City\n
+            (02) 553-0007
+    	</item>
+        <item><!--26. SM MALL OF ASIA-->
+            2nd level, South Parking Wing, SM Mall of Asia Pasay City\n
+            0917-5954489 556-0796 (telefax) 556-9386
+        </item>
+        <item><!--27. SM MANILA-->
+            Lower Ground Floor, SM City Manila Concepcion cor. Arroceros and San Marcelino Streets, Manila\n
+            (02) 523-1282 / 09175954534
+        </item>
+        <item><!--28. SM MARILAO-->
+            2nd Floor, SM City Marilao Mac Arthur Highway, Brgy. Ibayo Marilao, Bulacan\n
+            (044) 8159005 / 09175954510
+        </item>
+        <item><!--29. SM MEGAMALL-->
+            5th floor, Mega B, SM Megamall, Mandaluyong City\n
+            (02) 687 9118 / 0917 5954429
+    	</item>
+        <item><!--30. SM NORTH EDSA ANNEX-->
+            Lower Ground Floor, SM North EDSA Annex, North Avenue cor EDSA, Quezon City\n
+            928-8718 / 09175954439
+    	</item>
+        <item><!--31. SM PAMPANGA-->
+            2nd Floor, SM City Pampanga Olongapo-Gapan Road, Brgy. San Jose San Fernando City,\n Pampanga
+            (045) 455-4020 / 09175954454
+        </item>
+        <item><!--32. SM SAN LAZARO-->
+            Lower Ground Floor, SM City San Lazaro Felix Huertas cor. A.H. Lacson Sts. Sta. Cruz, Manila\n
+            (02) 786-2511 / 09175954547
+    	</item>
+        <item><!--33. SM SOUTHMALL-->
+            Unit 0034 SM Southmall, Alabang Zapote Road, Las Piñas City\n
+            8569774
+        </item>
+        <item><!--34. SM STA. MESA-->
+            3rd Floor, SM City Sta. Mesa Ramon Magsaysay St. cor. Araneta Ave. Sta. Mesa, Quezon City\n
+            (02) 559-4282 / 09175954507
+        </item>
+        <item><!--35. SM STA. ROSA-->
+            Ground Floor, SM City Sta. Rosa Old National Highway, Brgy. Tagapo Sta. Rosa City, Laguna\n
+            (049) 534-4727
+    	</item>
+        <item><!--36. SM TARLAC-->
+            Lower Ground Floor, SM City Tarlac, Mac Arthur H-way, San Roque, Tarlac City\n
+            (045) 6060040 09235834641
+        </item>
+        <item><!--37. SMDC Light Residences-->
+            Unit 215, 2/F, Light Mall, SMDC Light Residences, EDSA cor. Madison St., Boni, Mandaluyong City\n
+            (02) 997-0302
+        </item>
+        <item><!--38. STA. LUCIA EAST GRAND MALL-->
+            3rd Floor, Sta. Lucia East Grand Mall Marcos Highway corner Felix Avenue, Cainta, Rizal\n
+            681-7315 / 09175954588
+        </item>
+        <item><!--39. TRINOMA MALL-->
+            Ground Floor, Trinoma Mall EDSA cor North Avenue, Quezon City\n
+            (02) 916-7540 to 41 / 09175954451
+        </item>
+        <item><!--40. V-MALL GREENHILLS SHOPPING CENTER-->
+            Ground Floor, Virra Mall, Greenhills Shopping Center, Greenhills, San Juan City\n
+            (02) 584-5157 / 09175954497
+        </item>
+        <item><!--41. WALTERMART SANTA MARIA-->
+            2/F Waltermart Mall, Sta. Maria, Bulacan\n
+            641-4783 09167833467
+    	</item>
+        <item><!--42. Zamboanga City-->
+            #IL304 3rd Floor, KCC Mall De Zamboanga\n
+            09778140201
+        </item>
+    </string-array>
+
+    <string-array name="array_list_body_services">
+        <item>Waxing</item>
+        <item>Back Cleaning</item>
+        <item>Body Salt Glow</item>
+        <item>Shape and Sculpt™</item>
+        <item>Body Scrub</item>
+    </string-array>
+
+    <string-array name="array_details_body_services">
+        <item><!--Waxing-->
+            This semi-permanent hair removal treatment extracts hair by pulling its roots. Hair
+            regrowth occurs only after two to eight weeks. Flawless offers waxing for virtually
+            any area of the body from the eyebrows to the legs, arms, bikini area and back.
+        </item>
+        <item><!--Body Cleaning-->
+            In essence, the Flawless Back Cleaning service is like a facial treatment for the back.
+            This deep moisturizing and clarifying treatment makes the skin on your back supple,
+            eliminates back acne problems, lightens the backs complexion and gives it a healthy glow.
+            This treatment also eliminates impurities such as blackheads, ingrown hairs and oily
+            deposits. An anti-bacterial solution is also applied to help prevent spots from reappearing.
+        </item>
+        <item><!--Body Salt Glow-->
+            A treatment that provides exceptional relaxation, it uses a combination of sea salt and oil
+            exfoliates to nourish and hydrate the skin. A soothing massage follows, and the treatment
+            is capped with a shower followed by the application of body lotion, leaving the skin
+            soft and smooth.
+        </item>
+        <item><!--Shape & Salt Glow-->
+            Flawless Platinum Peel uses a sterilized diamond-tip wand of varying sizes and texture
+            specific to different skin types and required depth of resurfacing. This microdermabrasion
+            service is effective in oil control, skin whitening, and anti-aging.
+	</item>
+        <item><!--Shape & Sculpt™-->
+            Uses a ground-breaking 3-in-1 advanced technology in a synergistic system via Cavitation
+            Ultrasound, Bi-Polar Radio Frequency and Interference Frequency. These combine to effectively
+            eliminate fat and improve muscle tone, resulting in a slim and svelte figure.
+        </item>
+        <item><!--Body Scrub-->
+            One of Flawless most popular services, our Body Scrub treatment removes dead, dry and rough
+            skin, evens out skin tone and improves skin texture—leaving a natural glow. It also restores
+            the luster to dehydrated skin and invigorates dulled senses, leaving skin feeling smooth and
+            looking younger.
+        </item>
+    </string-array>
+
+    <string-array name="array_price_list_body">
+        <item>P4,500</item><!--Waxing-->
+        <item>P4,500</item><!--Back Cleaning-->
+        <item>P4,500</item><!--Body Salt Glow-->
+        <item>P2,000</item><!--Shape and Sculpt™-->
+        <item>P2,000</item><!--Body Scrub-->
+
+    </string-array>
+
+    <string name="news_one_title">Flawless Summer Fun!</string>
+    <string name="news_two_title">Flawless Beauty Date</string>
+    <string name="news_three_title">Flawless Lucky Charm</string>
+    <string name="news_four_title">ISKIN TRANSFORMATION KIT: SPECIALLY FORMULATED FOR ASIAN SKIN</string>
+    <string name="news_fabfifteen_title">FAB@15: FLAWLESS` BIGGEST BEAUTY BLOWOUT</string>
+    <string name="news_booking_app_title">#stayFlawless App: Beauty Made Easy In Your Hands</string>
+    <string name="news_summer_fun_title">How to Get #FlawlessThisSummer</string>
+
+    <string name="news_one" formatted="false">
+    <item>
+        The heat is on! Are you ready for another season of sun and fun? Don’t let sunburn and harmful
+        UV rays take the fun out of your summer moments. Make sure you’re protected from top to toe using
+        Flawless’ ultimate sun care essential—Flawless Skin Protect Mist with SPF 70.
+        \n\n
+        Starting from March 1 to April 31, you can get a FREE Flawless Skin Protect Mist when you spend
+        a minimum of P3,500 on a single transaction.
+        \n\n
+        Flawless Skin Protect Mist effectively shields the skin from harmful UVA and UVB rays with its
+        high SPF level. Also, it’s water-resistant, paraben-free, easy to apply, and safe for children
+        and pregnant women.
+        \n\n
+        So what are you waiting for? Visit a Flawless clinic near you now and take home a complimentary
+        Flawless Skin Protect Mist.
+      </item>
+    </string>
+
+    <string name="news_two" formatted="false">
+    <item>
+        The countrys well-loved aesthetic clinic wants you to be the most Flawless Valentine for the
+        whole of February with these lovely offers.
+        \n\n
+        Buy 1 Get 25% OFF
+        \n\n
+        Enjoy a pampering session with a loved-one. Flawless gives 25% discount on your dates beauty
+        treat when you both avail any of the following services: Acne Control Regular Facial, Age Defy
+        Regular Facial, All-Natural Ultimate White Facial, Flawless White Regular Facial, Real Gentleman
+        Facial Oil Control Facial, Classic Facial, and Beauty Drip. This special discount is applicable
+        on services with equal or lesser value.
+        \n\n
+        25% OFF Body-loving Services
+        \n\n
+        If you’re going solo this Valentine’s month, better indulge in your most deserved skin-loving
+        body treats. Popular services, such as Body Scrub, Back Cleaning, Signature Body Peel, Laser
+        Hair Removal, Nano Powerpeel, Skin Peeling and Electrocautery, are also discounted at 25% off.
+        \n\n
+        So what are you waiting for? Visit a Flawless clinic near you and book these services today!
+      </item>
+    </string>
+
+    <string name="news_three" formatted="false">
+    <item>
+        Want to know your luck in love, health and wealth for your most Flawless year ever? In
+        celebration of the New Year, Flawless is offering you a limited edition 2016 Guide by Feng
+        Shui Master, Marites Allen, which you can get free for every P4,000 spent on a single transaction.
+        \n\n
+        Learn about your zodiac and how you can navigate your way to success this year with the expert
+        advice of Marites Allen. Also, find out what makes Flawless celebrities lucky in their respective
+        careers in Your 2016 Guide.
+        \n\n
+        The Flawless Lucky Charm promo is valid until March 31, 2016 in all Flawless clinics nationwide.
+      </item>
+    </string>
+
+    <string name="news_four" formatted="false">
+    <item>
+    Is it true that beauty products formulated for Caucasians are not as effective when used by Asians?
+    \n\n
+    This is perhaps one of the most arguable subjects in the beauty industry today, and for good reasons.
+    As more and more cosmeceutical companies both local and abroad look at our country as a viable market
+    for their products, it has become much easier for the rest of us, 21st century simpletons, to find
+    ourselves trapped in the middle of a fierce marketing battlefield where messages with somewhat contradicting
+    information are regularly thrown.
+    \n\n
+    Some international cosmeceutical companies tend to apply the same science and principles that
+    gave them success in western countries here in our region, says Dr. Evelyn San Luis, a Medical Aesthetic
+    Professional at Flawless Face and Body Center (Flawless). Although not entirely a bad thing, this
+    practice could pose major disadvantages for both these companies and their consumers primarily because
+    of the fact that our skin is structured differently, and therefore, have dissimilar needs.
+    \n\n
+    Citing not only the difference between the composition of Asian and Caucasian skin, but also the
+    external factors that affect our biggest organs condition, Dr. San Luis says that maintaining
+    the optimum health and natural beauty of oriental skin calls for more specialized and thorough regimens.
+    \n\n
+    There are several factors that greatly affect the health and appearance of our skin, she explains.
+    Clearly, we have a lot more on our plates. Compared to Caucasians, we have more sebaceous glands,
+    larger melanin cells and a thicker epidermis. We are also more prone to darkening and pigmentation
+    due to the fact that our skin has more melanocytes (mature, melanin-forming cells). Thats why its
+    really comforting to know that there are now companies like ISkin New York who are into formulating
+    beauty products that cater to our specific needs.
+    \n\n
+    Well renowned and a favorite brand especially among celebrities, ISkin New York is a leading provider
+    of premium skincare programs that deal with various skin issues through the process of cell renewal;
+    that is to say, product lines that initiate a chain reaction of cell rebirth from deep into the skin.
+    Even more impressive, they also offer products that contain specialized peptides—chains of amino acids
+    that perform specific functions like anti-aging and skin lightening agents. These specialized peptides
+    allow everyone to enjoy the brand’s benefits for longer periods of time and without subjecting themselves
+    to harmful chemicals.
+    \n\n
+    ISkin New York’s flagship program, the ISkin Transformation Kit, is designed with the Asian skin
+    in mind. Its advanced formulation promises to increase the skins tolerance to environmental
+    factors and diminish any visible sign of aging, including wrinkles, fine lines, pigmentations
+    and rough skin. According to Dr. San Luis, the program is perfect for those who, due to their
+    fast-paced lifestyle and constant exposure to free radicals, have skins that are aging faster
+    than they should.
+    \n\n
+    Each individual product included in the ISkin Transformation Kit has been carefully blended and
+    tested several times to ensure quality. They work deep into the skin to stimulate new cell
+    growth, improve circulation and help rebuild collagen.
+    \n\n
+    ISkin’s Transformation Kit is composed of top-quality products that promise to bring out the best
+    in your Asian skin. It includes: a mild plant-based deep cleanser that effectively removes dirt
+    and other impurities without harming your skin; a balancing toner restores the skins pH balance—boosting
+    its ability to absorb nutrients in preparation for the creams that will follow; a lightweight
+    whitening moisturizer that targets pigmentations; a broad spectrum sunscreen that doesnt leave a
+    greasy feel on the skin; and two patented rejuvenating creams that effectively stimulate cell
+    activity and collagen and elastin formation.
+    </item>
+</string>
+
+    <string name="news_rejuvelite" formatted="false">
+    <item>
+    Looking for that one beauty treatment that answers all skin concerns? Or how about a treatment
+    that brings skin vitality? Well, your search may be over.
+    \n\n
+    Flawless, the country’s preferred aesthetic clinic, introduces a technologically advanced aesthetic
+    treatment that sheds light to all skin concerns—The Flawless Rejuvelite Mask Facial.
+    \n\n
+    Powered by LED technology, the Flawless Rejuvelite Mask Facial activates collagen production and
+    boosts skin rejuvenation for total beauty. This treatment works by allowing the skin to absorb
+    light energy to produce cellular fuel and increase activity of the body’s natural healing and
+    regeneration processes.
+    \n\n
+    The Flawless Rejuvelite Mask Facial offers 7 different colors of visible light and infrared light
+    to produce various benefits to the skin, such as firming lines, soothing skin, repairing damages,
+    clearing acne and blemishes, reducing redness, and balancing complexion.
+    \n\n
+    These gorgeous effects depend on the wavelengths of light used, which is determined by color.
+    Red and purple lights promote youthful beauty; red combats wrinkles and increases collagen
+    production for a smoother, younger-looking skin, while purple increases cell regeneration and renewal.
+    For damaged and irritated skin, cyan and yellow lights are useful for healing as cyan calms and soothes
+    irritated skin and reduces swollen capillaries, and yellow alleviates redness and heals skin from
+    inflammation, sunburn, windburn and other environmental damages.
+    \n\n
+    Earlier this year, Flawless CEO and owner, Rubby Sy-Coyiuto announced that more beautiful things are
+    coming to the beauty brand as they launched their new look and logo to the public, and the Flawless
+    Rejuvelite Mask Facial is just one of them.
+    \n\n
+    “Flawless’ humble beginnings started by bringing aesthetic services within the reach of the mass
+    through facials,” says Rubby. “And what better way to introduce a new treatment, than to make a
+    technologically advanced facial service available to everyone.”
+    \n\n
+    Flawless offers The Flawless Rejuvelite Mask Facials in 4 full variants, Flawless Rejuvelite Oil
+    Control Mask Facial, Flawless Rejuvelite Acne Control Mask Facial, Flawless Rejuvelite Age Defy
+    Mask Facial, and Flawless Rejuvelite Whitening Mask Facial, for P1,100 per session.
+    \n\n
+    For those who are looking for a quick yet effective aesthetic treatment, also available are Flawless
+    Rejuvelite InstaFacials for express Calming, Boosting, Healing, and Firming effects at P480 per session.
+    Each Flawless Rejuvelite InstaFacial only takes 30 minutes—suitable for the busy beauty seekers.
+
+    </item>
+    </string>
+<string name="news_fabatfifteen" formatted="false">
+    <item>
+    Flawless, the country’s preferred aesthetic clinic is turning 15 this year and even more fabulous
+    with its anniversary theme—FAB@15.
+    \n\n\n
+    2016 has been a hefty year for the beauty brand, especially with the launch of its new look,
+    introducing an innovative facial treatment, and opening of 8 new locations; totaling to a strong
+    network of 45 clinics nationwide. With these beautiful achievements, Flawless owner and CEO,
+    Rubby Sy-Coyiuto can’t help but to look back at other milestones her company has achieved through
+    the years.
+    \n\n\n
+    `Whenever I think of a Flawless milestone, be it an award, a clinic opening, a new treatment or
+    a product, I always tell myself that it’s the loyalty of our clients that brought us this,` shares Rubby.
+    `That`s why we make sure to return the favor by giving them what want and deserve on National Flawless Day.`
+    \n\n\n
+    National Flawless Day, which falls on the 8th of December, marks the founding of the clinic; and
+    each year, Flawless releases a nationwide promo highly anticipated by their beauty patrons.
+    \n\n\n
+    For their 15th anniversary, Rubby and her team decided to do something big and fabulous that no
+    other aesthetic centers would think of, a two-phased promo that gives you more reasons to celebrate
+    beauty with Flawless.
+    \n\n\n
+    Flawless` FAB@15 promo enables clients to choose over 15 gorgeous offers to suit their beauty wants
+    and skincare needs by using coupons. These offers include free products, complimentary service upgrades,
+    straight discounts, and buy 1 take 1 on facials—all tried and tested deals by clients who have been
+    journeying with the brand.
+    \n\n\n
+    Harping on the “fabulous fifteen” mantra, Flawless is also raffling off 15 exciting prizes to 15
+    lucky winners. For each FAB@15 coupon availed, a client will get one raffle entry. A Pink Yamaha Mio Scooter,
+    Samsung Galaxy S7 Edge Rose Gold Phone, 7-inch Lenovo Tablet, and 15,000-Peso shopping gift cards are just
+    some of the covetous items to be given during the raffle draw on January 14, 2017.
+    \n\n\n
+    FAB@15 coupons are available for free in all Flawless clinics nationwide, and may be availed from
+    November 1 to December 31, 2016.
+    </item>
+</string>
+
+<string name="news_booking_app" formatted="false">
+    <item>
+    Make your beauty routine fun and easy in just a few taps!
+    \n\n
+    Flawless, the country’s preferred clinic for face, body and medical services, has finally released
+    its mobile app that promises to enhance any client’s beauty experience—the #stayFlawless app.
+    \n\n
+    The #stayFlawless app allows clients to book clinic sessions, shop for skincare products, get
+    lifestyle tips, locate nearest Flawless clinics, and learn about the latest news on beauty.
+    \n\n
+    Book An Appointment
+    \n\n
+    Enjoy aesthetic convenience in your hands and be first at Flawless by booking an appointment online.
+    The booking feature also allows you to choose your clinic, schedule your visit, and add treatment
+    requests to make sure that your sessions at Flawless will be always pleasurable. Plus, you can book
+    appointments for your friends, too!
+    \n\n
+    Services
+    Not sure what treatment to get on your next clinic visit? Know more about Flawless’ wide variety
+    of medically sound beauty treatments to find the best solutions for your skin concern with Services.
+    \n\n
+    Products
+    \n\n
+    Stock up on your beauty essentials in the most convenient way! With the #stayFlawless app’s Products
+    feature, you can shop for your favorite skincare products from Flawless anytime, anywhere.
+    Flaunt
+    \n\n
+    Want to know the beauty secrets of your favorite Flawless celebrities? Or how about learning skincare
+    hacks from Flawless MDs? Get your hands on Flaunt, the official lifestyle magazine of Flawless.
+    Flaunt gives you beauty stories, lifestyle tips and the latest news and updates from Flawless.
+    \n\n
+    Clinic Locator
+    \n\n
+    Locate a Flawless clinic near you and anywhere in the country. This feature provides details about
+    your choice clinic and its contact numbers so you know where to find your favorite beauty destination.
+    \n\n\n
+    Basically, #stayFlawless app is every beauty aficionado’s partner in all things beauty.
+    Make beauty easy in your hands—download the free app today for your Apple or Android device and watch
+    out for exclusive promos and discounts coming soon.
+    </item>
+</string>
+
+    <string name="news_flawless_summer_fun" formatted="false">
+    <item>
+    It’s summer time again! And because we are experts who are very dedicated to
+    guide you in your beauty journey, we want you to be #FlawlessThisSummer with
+    our exciting offers that will help you get beach-ready in no time.
+    \n\n
+    Enjoy escalating discounts of 10% on your fist session, 15% on your second, and
+    20% on your third on popular services like Waxing, Laser Hair Removal, Beauty
+    Drip, Easy Peel, Nano Powerpeel, Skin Peeling, Mesoestetic, Shape &amp; Sculpt
+    and Body Scrub.
+    \n\n
+    To get more details on this offer, here is the full promo mechanics:
+    \n\n
+    1. The Flawless Summer Fun promo entitles client to escalating discounts on any choice service and on the
+    \n same area of treatment (if applicable).
+    \n Client gets 10% discount on first session, 15% discount on the
+    second, and 20% on the third session.
+    \n
+    2. To avail promo, client must present service package card.
+    \n
+    3. Promo discount is applicable to single sessions only and not service packages.
+    \n
+    4. Client can only receive a maximum of 20% discount on a singles session.
+    \nSucceeding sessions after the third session of the same service and area
+    of treatment, can only be given 20% discount.
+    \n
+    5. Discounts are non-transferable and non-convertible to cash and cannot be
+    used in conjunction with any other offer including gift certificates.
+    \n
+    6. Promo runs from March 1 to May 31, 2017 in all Flawless clinics
+    nationwide. If discounted service is not available, clinic must refer client to
+    the nearest Flawless clinic with the service availability.
+    \n
+    7. Select areas only for Waxing and Skin Peeling services.
+    \n
+    8. Redemption period is until July 31, 2017.
+    \n\n
+    Oh, and did we mention you can still get 20% discount on your succeeding
+    sessions? Well, we just want to give you the most delightful summer experience
+    with every clinic visit. So what are you waiting for? Book those sessions today for
+    less!
+    </item>
+</string>
+
+    <string name="lorem" formatted="false">
+    <item>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+    the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of
+    type and scrambled it to make a type specimen book.
+    </item>
+    </string>
+
+    <string name="products_subtitle" formatted="false">
+    <item>
+    Flawless Face and Body Clinic offers a collection of products especially formulated to match each
+    skin type – acne-prone, oily skin, sensitive, mature skin, or combination – for women and men alike.
+    \n\n
+    Visit any of our branches to have a skin consultation with our in-house dermatologists in order
+    to know what is really best for your skin.
+    </item>
+    </string>
+    <string name="kits_subtitle" formatted="false">
+    <item>
+    Your all-in-one beauty solution to help make your daily routine easy and uncomplicated
+    \n
+    Our Beauty kits are specially formulated by our medical experts to ensure they encompass every
+    step of your beauty journey.
+    </item>
+    </string>
+
+    <string name="kits_acne" formatted="false">
+    <item>
+    Specially designed to combat pimple~causing bacteria while minimizing pores and removing excess
+    oil, Flawless Acne Control Kit is the ultimate answer to your acne problems.
+    </item>
+    </string>
+
+    <string name="kits_wkit" formatted="false">
+    <item>
+    Lighten and even out your skin tone with Flawless Whitening Kit. Especially formulated for
+    Filipino skin, the Flawless Whitening Kit is composed of products that work together to lighten
+    ones complexion as well as protect the skin from photodamage.
+    </item>
+    </string>
+
+    <string name="kits_agedefy" formatted="false">
+    <item>
+    Age Defy Kit stops the process of skin aging even before its first signs begin. Composed of
+    products that gently exfoliate dead skin cells, minimize pores, promote balance moisturization,
+    smoothen and tone the skin, and delay the appearance of wrinkles, this ready-made and easy to
+    use, system gives you everything you`ll need to deal with the progression of aging skin. Age Defy
+    Kit contains Collagen Soap, Age Defy Toner, Skin Protect Cream, and Age Defy Cream.
+    </item>
+    </string>
+
+    <string name="kits_oilcontrol" formatted="false">
+    <item>
+    Oil Control Kit is best for those who wish to achieve a naturally shine~free and brighter
+    complexion. Kit contains Tea Tree Soap, Pore Refiner, Skin Protect Gel and Skin Renew Cream.
+    </item>
+    </string>
+
+    <string name="kits_rg" formatted="false">
+    <item>
+    For real men, Flawless` Real Gentleman (RG) Kit is for you. Composed of products and services
+    that are specially formulated to address most men`s common skin concerns, this 3~in~1 kit makes
+    it easy for anyone to achieve better-looking skin minus all the fuss. RG Kit contains Soap,
+    Toner and Cream.
+    </item>
+    </string>
+
+    <string name="kits_bleaching" formatted="false">
+    <item>
+    Enjoy all the perks of having healthy~looking lighter skin with Flawless` Body Bleaching Kit
+    that contains Whitening Soap, Oatmeal Soap, Skin Lightening Lotion with Sunblock and White Plus
+    Cream.
+    </item>
+    </string>
+
+     <string name="corp_info" formatted="false">
+    <item>
+    Flawless Face and Body Clinic, Incorporated (Flawless) is the preferred aesthetic beauty clinic
+    for face, body and medical services in the Philippines. Founded on December 8, 2001, Flawless was
+    well received by the local market and have expanded to over 45 clinics strategically located in
+    major malls nationwide, each boasting with well-trained and experienced skin professionals.
+    \n\n
+    Through its growing number of strategically placed clinics and innovative aesthetic services,
+    Flawless grew further in providing beauty solutions for consumers with their medical grade and
+    imported product lines.
+    \n\n
+    Today, the Flawless brand stands stronger with its clinic expansion, aesthetic breakthroughs,
+    exceptional customer service, and outstanding achievements in the beauty industry—thanks to the
+    leadership of its equally flawless owner and CEO,Rubby Sy Flawless was awarded Outstanding Retailer
+    of the Year twice in 2009 and 2012.The International Association of Business Communicators (IABC)
+    also recognized Sy for her exceptional use of various media to heighten the company’s prominence,
+    earning her the 2012 CEO Excel Award.
+    \n\n
+    In the face of these remarkable achievements, Flawless continues to grow and to bloom to its fullest
+    potential with the Filipino people in mind. It’s no wonder why Flawless is front-lined by A-list
+    celebrities and favored by beauty aficionados all over the nation.
+    </item>
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

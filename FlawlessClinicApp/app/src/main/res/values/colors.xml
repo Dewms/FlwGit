@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef3c95</color>
+    <color name="colorPrimaryDark">#715e58</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#ffffff</color>
+    <color name="navigationBarColor">#FFFFFF</color>
+    <color name="colorAccent">#ff80ab</color>
+    <color name="colorTop">#fac4b8</color>
+    <color name="colorBottom">#eae5e0</color>
+    <color name="indicator">#fdebe2</color>
+    <color name="bgkits">#eae5e0</color>
+
+    <color name="apricot">#eac4b8</color>
+    <color name="ivory">#fdebe2</color>
+    <color name="cloud">#DADADA</color>
+    <color name="stone">#A39DA1</color>
+    <color name="silk">#B4A595</color>
+
+    <color name="list_background">#ED3C95</color>
+    <color name="list_item_title">#FFFFFF</color>
+    <color name="list_background_pressed">#fdebe2</color>
+</resources>
+

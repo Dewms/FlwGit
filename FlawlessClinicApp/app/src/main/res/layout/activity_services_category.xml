@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img_beauty_date"
+            tools:layout_editor_absoluteY="91dp"
+            tools:layout_editor_absoluteX="165dp"
+            android:id="@+id/imageButton"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_state"
+            android:scaleType="fitCenter" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

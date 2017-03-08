@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_main"
+        android:title="@string/toolbar_home" />
+
+    <item
+        android:id="@+id/action_products"
+
+        android:title="@string/nav_acne_control"/>
+    <item
+        android:id="@+id/action_services"
+
+        android:title="@string/nav_age_defy"/>
+    <item
+        android:id="@+id/action_news"
+
+        android:title="@string/nav_oil_control"/>
+    <item
+        android:id="@+id/action_lifestyle"
+
+        android:title="@string/nav_whitening"/>
+    <item
+        android:id="@+id/action_clinics"
+
+        android:title="@string/nav_body"/>
+    <item
+        android:id="@+id/action_about"
+
+        android:title="@string/toolbar_about"/>
+    <!--
+    <item
+        android:id="@+id/action_tabs"
+
+        android:title="Tabs"/>
+
+    <item
+        android:id="@+id/action_noHamburger"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="No Hamburger"/>
+
+    <item
+        android:id="@+id/action_noToolbar"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="No Toolbar"/>
+    -->
+</menu>

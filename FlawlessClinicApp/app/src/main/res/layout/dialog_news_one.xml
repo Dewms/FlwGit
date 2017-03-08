@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/img_summerfun"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_margin="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.FontTitle"
+        android:text="@string/news_one_title"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:text="@string/news_one"
+        android:id="@+id/textView4"
+        android:layout_margin="8dp" />
+</LinearLayout>

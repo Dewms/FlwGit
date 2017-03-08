@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/txt_details_services">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_hair_details"
+        android:src="@drawable/img_hair_rmvl"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_margin="8dp"
+        android:background="#ffffff"
+        android:elevation="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.FontTitle"
+        android:text="Title"
+        android:id="@+id/txt_hair_details_title"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.FontTitle"
+        android:text="Price"
+        android:id="@+id/txt_hair_details_price"
+        android:layout_margin="8dp"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:text="Details"
+        android:id="@+id/txt_hair_details_content"
+        android:layout_margin="8dp"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:paddingLeft="8dp" />
+</LinearLayout>

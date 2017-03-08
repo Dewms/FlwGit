@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.FontTitle"
+        android:text="@string/toolbar_news"
+        android:id="@+id/textView11"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/abc_text_size_title_material" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fabric_bg">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:padding="32dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img_flawless_summer"
+                    android:id="@+id/imgbtn_news_summer_fun"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:cropToPadding="false"
+                    android:background="@android:color/background_light"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/imgbtn_rejuvelite"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    android:background="#ffffff"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_rejuvelite"
+                    android:layout_gravity="center" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img_beautyonthego"
+                    android:id="@+id/imgbtn_news_beautyonthego"
+                    android:src="@drawable/img_beautyonthego"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:elevation="10dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fabric_bg"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:src="@drawable/img_fabfifteen_jodi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_news_fabfifteen_jodi"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="4dp"
+                    android:elevation="10dp" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img_booking_app"
+                    android:id="@+id/imgbtn_news_booking_app"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_booking_app"
+                    android:scaleType="centerCrop"
+                    android:background="@android:color/background_light"
+                    android:elevation="10dp"
+                    android:layout_margin="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fabric_bg"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_news_one"
+                    android:src="@drawable/img_summerfun"
+                    android:background="#ffffff"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="8dp"
+                    android:elevation="10dp"
+                    android:layout_gravity="center" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_news_two"
+                    android:src="@drawable/img_beauty_date"
+                    android:background="#ffffff"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="1"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="false"
+                    android:adjustViewBounds="true"
+                    android:layout_margin="8dp"
+                    android:elevation="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_news_three"
+                    android:src="@drawable/img_luckycharm"
+                    android:background="#ffffff"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="8dp"
+                    android:layout_below="@id/imgbtn_news_one"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:elevation="10dp" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_news_four"
+                    android:src="@drawable/img_iskinmaxene"
+                    android:background="#ffffff"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="8dp"
+                    android:layout_toLeftOf="@id/imgbtn_news_three"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:elevation="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

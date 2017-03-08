@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/background_light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frame_sub"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/img_products_subtitle"
+                    android:adjustViewBounds="false"
+                    android:background="#ffffff"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp" />
+            </FrameLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtn_products_kits"
+                android:src="@drawable/img_kits_products"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:layout_below="@+id/frame_sub" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtn_products_individual"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_products_individual"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_below="@+id/imgbtn_products_kits"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/img_expertise"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="16dp"
+                android:layout_below="@+id/imgbtn_products_individual"
+                android:scaleType="center"
+                android:adjustViewBounds="false" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView16"
+                android:src="@drawable/img_certified"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="16dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

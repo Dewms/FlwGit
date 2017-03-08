@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView13"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:scaleType="fitStart"
+        android:src="@drawable/img_home_promos"
+        android:background="@drawable/fabricbg_fine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:text="@string/footer"
+        android:id="@+id/textView15"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_two_home"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/appbar_padding_top"
+        android:layout_alignParentBottom="true"
+        android:elevation="0dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_products"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_products2"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:baselineAlignBottom="false"
+            android:layout_marginLeft="16dp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_services"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_services2"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:layout_toRightOf="@+id/imgbtn_home_products"
+            android:layout_marginLeft="16dp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_news"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_supplements"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:layout_toRightOf="@+id/imgbtn_home_services"
+            android:layout_marginLeft="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="Products"
+            android:id="@+id/txt_home_products"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentBottom="false"
+            android:layout_alignEnd="@+id/imgbtn_home_products"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imgbtn_home_products"
+            android:layout_alignStart="@+id/imgbtn_home_products"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="Services"
+            android:id="@+id/txt_home_services"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/imgbtn_home_services"
+            android:layout_alignEnd="@id/imgbtn_home_services"
+            android:layout_alignStart="@id/imgbtn_home_services"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="News"
+            android:id="@+id/txt_home_news"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignEnd="@+id/imgbtn_home_news"
+            android:layout_below="@+id/imgbtn_home_news"
+            android:layout_alignParentBottom="false"
+            android:textAlignment="center"
+            android:layout_alignStart="@+id/imgbtn_home_news"
+            android:layout_alignParentTop="false"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_lifestyle"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_lifestyle2"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:baselineAlignBottom="false"
+            android:textAlignment="center"
+            android:layout_above="@+id/txt_home_news"
+            android:layout_toRightOf="@+id/imgbtn_home_news"
+            android:layout_toEndOf="@+id/imgbtn_home_news"
+            android:layout_marginLeft="16dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_clinics"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_supplements"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:baselineAlignBottom="false"
+            android:textAlignment="center"
+            android:layout_above="@+id/txt_home_lifestyle"
+            android:layout_toRightOf="@+id/imgbtn_home_lifestyle"
+            android:layout_toEndOf="@+id/imgbtn_home_lifestyle"
+            android:layout_marginLeft="16dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgbtn_home_about"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_home_supplements"
+            android:scaleType="centerCrop"
+            android:background="@drawable/round_button"
+            android:baselineAlignBottom="false"
+            android:textAlignment="center"
+            android:layout_above="@+id/txt_home_clinics"
+            android:layout_toRightOf="@+id/imgbtn_home_clinics"
+            android:layout_toEndOf="@+id/imgbtn_home_clinics"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="Lifestyle"
+            android:id="@+id/txt_home_lifestyle"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentBottom="false"
+            android:layout_alignEnd="@+id/imgbtn_home_lifestyle"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/imgbtn_home_lifestyle"
+            android:layout_alignStart="@+id/imgbtn_home_lifestyle"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/txt_home_news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="Clinics"
+            android:id="@+id/txt_home_clinics"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/imgbtn_home_clinics"
+            android:layout_alignEnd="@id/imgbtn_home_clinics"
+            android:layout_alignStart="@id/imgbtn_home_clinics"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:text="About"
+            android:id="@+id/txt_home_about"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignEnd="@+id/imgbtn_home_about"
+            android:layout_below="@+id/imgbtn_home_about"
+            android:layout_alignParentBottom="false"
+            android:textAlignment="center"
+            android:layout_alignStart="@+id/imgbtn_home_about"
+            android:layout_alignParentRight="false"
+            android:layout_toRightOf="@+id/txt_home_clinics"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
