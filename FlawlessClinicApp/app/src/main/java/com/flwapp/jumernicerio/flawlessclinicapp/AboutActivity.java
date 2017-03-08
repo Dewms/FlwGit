@@ -9,6 +9,7 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 /**
  * Created by Jumer Nicerio on 3/11/2016.
+ Test commit for git
  */
 public class AboutActivity extends BaseActivity {
 
